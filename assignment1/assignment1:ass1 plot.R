@@ -15,7 +15,7 @@ ggplot(df, aes(x = year, y = lifeExp, color = country)) +
   labs(x = "Year", y = "Life expectancy",
        title = "Life expectancy over time") +
   theme_minimal()
-ggsave("ass1_plot_1.png", width = 7, height = 5)
+ggsave("assignment1/ass1_plot_1.png", width = 7, height = 5)
 
 #GDP per capita
 
@@ -25,4 +25,4 @@ ggplot(df, aes(x = year, y = gdpPercap, color = country)) +
   labs(x = "Year", y = "GDP per capita",
        title = "GDP/cap over time") +
   theme_minimal()
-ggsave("ass1_plot_2.png", width = 7, height = 5)
+ggsave("assignment1/ass1_plot_2.png", width = 7, height = 5)
